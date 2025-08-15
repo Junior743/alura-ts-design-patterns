@@ -103,7 +103,7 @@ A variável de ambiente `MONGO_URL` para a aplicação deverá ser `mongodb://lo
 
 1. Clone o repositório:
    ```bash
-   git clone github.com/Junior743/alura-ts-design-patterns.git
+   git clone https://github.com/Junior743/alura-ts-design-patterns-and-clean-arch.git
    ```
 2. Instale as dependências:
    ```bash
