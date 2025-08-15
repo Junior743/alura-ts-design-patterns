@@ -1,6 +1,6 @@
 # Padrões de Projeto em Node.js com TypeScript
 
-Este projeto é um estudo e aplicação prática de Padrões de Projeto (Design Patterns) e conceitos de Arquitetura Limpa (Clean Architecture) em um ambiente Node.js com TypeScript. O projeto foi desenvolvido com base nos cursos da Alura, explorando como estruturar uma aplicação robusta, manutenível e escalável.
+Este projeto é um estudo e aplicação prática de Padrões de Projeto (Design Patterns) e conceitos de Arquitetura Limpa (Clean Architecture) em um ambiente Node.js com TypeScript. Foi desenvolvido durante o curso **[Padrões de projeto com TypeScript: aprimorando uma API com arquitetura limpa](https://cursos.alura.com.br/course/padroes-projeto-typescript-api-arquitetura-limpa)** da Alura, explorando como estruturar uma aplicação robusta, manutenível e escalável.
 
 ## 🎯 Objetivo
 
@@ -106,3 +106,8 @@ npm start
 A API estará disponível em `http://localhost:3000` (ou na porta definida pela variável de ambiente `PORT`). A conexão com o MongoDB pode ser configurada pela variável `MONGO_URL`.
 
 ---
+
+## ✍️ Autor
+
+Desenvolvido por **Emerson Laranja**
+- **GitHub**: @EmersonLaranja
