@@ -1,4 +1,4 @@
-# Padrões de Projeto em Node.js com TypeScript
+# Padrões de Projeto e Arquitetura Limpa em Node.js com TypeScript
 
 Este projeto é um estudo e aplicação prática de Padrões de Projeto (Design Patterns) e conceitos de Arquitetura Limpa (Clean Architecture) em um ambiente Node.js com TypeScript. Foi desenvolvido durante o curso **[Padrões de projeto com TypeScript: aprimorando uma API com arquitetura limpa](https://cursos.alura.com.br/course/padroes-projeto-typescript-api-arquitetura-limpa)** da Alura, explorando como estruturar uma aplicação robusta, manutenível e escalável.
 
