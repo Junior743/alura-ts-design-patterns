@@ -83,13 +83,27 @@ A organização das pastas segue os princípios da Clean Architecture:
 
 - Node.js (versão >= 20.0.0)
 - npm ou Yarn
-- Uma instância do MongoDB em execução.
+- Docker e Docker Compose
+
+### Configuração do Ambiente
+
+O projeto utiliza o MongoDB como banco de dados. A maneira mais simples de configurar o ambiente é usando o Docker Compose.
+
+#### Opção 1: Docker Compose (Recomendado)
+
+Na raiz do projeto, execute o seguinte comando para iniciar o serviço do MongoDB em segundo plano:
+
+```bash
+# Inicia o serviço do MongoDB definido no docker-compose.yml
+docker-compose up -d
+```
+A variável de ambiente `MONGO_URL` para a aplicação deverá ser `mongodb://localhost:27017/clean-architecture`.
 
 ### Instalação
 
 1. Clone o repositório:
    ```bash
-   git clone <url-do-repositorio>
+   git clone github.com/Junior743/alura-ts-design-patterns.git
    ```
 2. Instale as dependências:
    ```bash
@@ -106,8 +120,3 @@ npm start
 A API estará disponível em `http://localhost:3000` (ou na porta definida pela variável de ambiente `PORT`). A conexão com o MongoDB pode ser configurada pela variável `MONGO_URL`.
 
 ---
-
-## ✍️ Autor
-
-Desenvolvido por **Emerson Laranja**
-- **GitHub**: @EmersonLaranja
