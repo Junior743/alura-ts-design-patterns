@@ -83,7 +83,7 @@ A organização das pastas segue os princípios da Clean Architecture:
 
 - Node.js (versão >= 20.0.0)
 - npm ou Yarn
-- Docker e Docker Compose
+- Docker e Docker Compose (para o MongoDB)
 
 ### Configuração do Ambiente
 
@@ -91,7 +91,7 @@ O projeto utiliza o MongoDB como banco de dados. A maneira mais simples de confi
 
 #### Opção 1: Docker Compose (Recomendado)
 
-Na raiz do projeto, execute o seguinte comando para iniciar o serviço do MongoDB em segundo plano:
+Na raiz do projeto, execute o seguinte comando para iniciar o serviço do MongoDB em segundo plano (assumindo que você tenha um arquivo `docker-compose.yml` configurado):
 
 ```bash
 # Inicia o serviço do MongoDB definido no docker-compose.yml
@@ -102,17 +102,32 @@ A variável de ambiente `MONGO_URL` para a aplicação deverá ser `mongodb://lo
 ### Instalação
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Junior743/alura-ts-design-patterns-and-clean-arch.git
-   ```
-2. Instale as dependências:
-   ```bash
-   npm install
-   ```
+```bash
+git clone https://github.com/Junior743/alura-ts-design-patterns-and-clean-arch.git
+```
 
-### Execução
+2. Instale as dependências:
+```bash
+npm install
+```
+
+### Execução em Modo de Desenvolvimento
 
 Para iniciar o servidor em modo de desenvolvimento com recarregamento automático, execute:
+```bash
+npm run dev
+```
+
+### Execução em Modo de Produção
+
+Para compilar e iniciar a aplicação em modo de produção:
+
+1. Compile o código TypeScript:
+```bash
+npm run build
+```
+
+2. Inicie o servidor de produção:
 ```bash
 npm start
 ```

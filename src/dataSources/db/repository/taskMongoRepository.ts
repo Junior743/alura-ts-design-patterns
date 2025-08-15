@@ -1,5 +1,5 @@
 import { Task } from "../../../entities/task";
-import { MongoManager } from "../config/mongoManager";
+import { MongoManager } from "../../config/mongoManager";
 import { AddATaskModel } from "../../../usecases/addTask";
 import { AddTaskRepository } from "../../../usecases/repository/addTaskRepository";
 
